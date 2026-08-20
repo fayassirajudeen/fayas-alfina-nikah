@@ -44,7 +44,7 @@ a { color: inherit; }
   position: relative;
   display: grid;
   place-items: center;
-  background: #25141a url('assets/couple.png') center 26% / cover no-repeat;
+  background: #25141a url('couple.png') center 26% / cover no-repeat;
   isolation: isolate;
 }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(35,10,17,.36), rgba(35,10,17,.55) 45%, rgba(35,10,17,.84)); z-index: -1; }
