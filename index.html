@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5c1726" />
+  <meta name="description" content="Wedding invitation of Fayaz Sirajudeen & Alfina Salim — 13 June 2027, Rajiv Gandhi Auditorium, Edathala, Aluva." />
+  <title>Fayaz & Alfina — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+    <p>Our Wedding Invitation</p>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">TOGETHER WITH THEIR FAMILIES</p>
+        <h1><span>Fayaz</span><i>♡</i><span>Alfina</span></h1>
+        <p class="invite-copy">WE WOULD LIKE TO INVITE YOU TO<br>CELEBRATE WITH US THE MOST<br>SPECIAL DAY OF OUR LIVES.</p>
+        <button class="open-btn" id="openInvitation">Open Invitation</button>
+        <div class="scroll-hint">scroll <span>↓</span></div>
+      </div>
+    </section>
+
+    <section class="section intro" id="invitation">
+      <div class="ornament">❦</div>
+      <p class="arabic">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+      <p class="translation">In the name of Allah<br>the Most Gracious and the Most Merciful</p>
+      <div class="divider"></div>
+      <p class="family-text">With the blessings of our families, we cordially invite your gracious presence with family on the auspicious occasion of the marriage of</p>
+      <h2>Alfina Salim</h2>
+      <p class="parents">D/o KM Salim &amp; Ayisha Beevi Salim</p>
+      <p class="small-cursive">with</p>
+      <h2>Fayaz Sirajudeen</h2>
+      <p class="parents">S/o PK Sirajudeen &amp; Nasriya Sirajudeen</p>
+    </section>
+
+    <section class="section couple-section">
+      <div class="photo-frame">
+        <img src="assets/couple.png" alt="Fayaz Sirajudeen and Alfina Salim" />
+        <div class="photo-caption">F &amp; A</div>
+      </div>
+    </section>
+
+    <section class="section reveal-date" id="date">
+      <div class="ring-icon">◊</div>
+      <p class="script-title">Our Special Day</p>
+      <h3>SCRATCH TO<br>DISCOVER THE DATE</h3>
+      <div class="scratch-card" id="scratchCard" aria-label="Scratch to reveal the wedding date">
+        <div class="date-content">
+          <span>13<sup>th</sup></span>
+          <b>JUNE</b>
+          <em>2027</em>
+        </div>
+        <canvas id="scratchCanvas"></canvas>
+        <button class="reveal-button" id="revealButton">Reveal</button>
+      </div>
+      <p class="date-note">Save the date — 13 June 2027</p>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="script-title">Counting the moments...</p>
+      <h2>Days to Go</h2>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Secs</span></div>
+      </div>
+    </section>
+
+    <section class="section details">
+      <div class="detail-card">
+        <span class="detail-icon">✦</span>
+        <p class="label">NIKKAH</p>
+        <h2>11:30 AM</h2>
+        <p>Sunday, 13 June 2027</p>
+      </div>
+
+      <div class="detail-card venue-card">
+        <span class="detail-icon">⌖</span>
+        <p class="label">VENUE</p>
+        <a class="venue-link" href="https://maps.app.goo.gl/ra2fGxRcK1VBk8Zk7" target="_blank" rel="noopener noreferrer">
+          <h2>Rajiv Gandhi Auditorium</h2>
+          <p>Edathala, Aluva</p>
+          <span class="map-hint">Click on the venue to see the location in Google Maps</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section family-section">
+      <p class="script-title">With love from our families</p>
+      <h2>Our Families</h2>
+      <div class="family-grid">
+        <div class="family-card">
+          <p class="label">THE GROOM</p>
+          <h3>Fayaz Sirajudeen</h3>
+          <p>S/o PK Sirajudeen<br>&amp; Nasriya Sirajudeen</p>
+        </div>
+        <div class="family-card">
+          <p class="label">THE BRIDE</p>
+          <h3>Alfina Salim</h3>
+          <p>D/o KM Salim<br>&amp; Ayisha Beevi Salim</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rsvp" id="rsvp">
+      <p class="script-title">We hope to celebrate with you</p>
+      <h2>RSVP</h2>
+      <p>Will you be attending?</p>
+      <div class="rsvp-buttons">
+        <a class="rsvp-btn primary" href="tel:+917902440748">Yes, I'll be there!</a>
+        <a class="rsvp-btn secondary" href="tel:+917902440748">Contact Us</a>
+      </div>
+      <div class="contact">
+        <span>RSVP</span>
+        <a href="tel:+917902440748">+91 79024 40748</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-heart">♡</div>
+      <p>Insha Allah, we look forward to celebrating<br>this beautiful beginning with you.</p>
+      <small>FAYAZ &amp; ALFINA · 13 JUNE 2027</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
